@@ -77,10 +77,7 @@ function decrypt() {
       code = swap(code, 'g', 't')
       console.log("[Code] Swap [g->t]: " + code);
       // 'U' devient 'm'
-      code = swap(code, 'U', 'm')
-      console.log("[Code] Swap [U->m]: " + code);
-      
-      code = cesar(code, 7, abc1)
+      code = cesar(code, 8, abc1)
       console.log("[Code] César 7, alphabet01: " + code);
   } else {
       code = swap(code, 'g', 'm')
